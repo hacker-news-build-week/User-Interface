@@ -6,7 +6,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-
+/* INFINITE SPINNING TROLL ANIMATION */
 #loading {
     animation: rotation 2s infinite linear;
     margin: 0 auto;
@@ -20,7 +20,7 @@ body {
             transform: rotate(359deg);
     }
 }
-
+/* 404 PAGE ERROR FONT COLOR */
 h1 {
     color: red;
 }
