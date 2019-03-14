@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: #fff;
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#loading {
+    animation: rotation 2s infinite linear;
+    margin: 0 auto;
+}
+
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
+
+h1 {
+    color: red;
+}
+
+#demo {
+    color:red;
+}
